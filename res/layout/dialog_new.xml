@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ll_default"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etName"
+        style="@style/et_default"
+        android:ems="10"
+        android:hint="@string/eventname" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etDescription"
+        style="@style/et_default"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:singleLine="false" >
+    </EditText>
+
+    <LinearLayout style="@style/ll_default" >
+
+        <Button
+            android:id="@+id/btCancel"
+            style="@style/bt_dialog"
+            android:text="@android:string/cancel" />
+
+        <Button
+            android:id="@+id/btOk"
+            style="@style/bt_dialog"
+            android:text="@string/save" />
+    </LinearLayout>
+
+</LinearLayout>

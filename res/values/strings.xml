@@ -1,0 +1,61 @@
+<resources>
+
+    <string name="app_name">Planer</string>
+    <string name="title_activity_main">Planer</string>
+
+    <!-- Menu -->
+    <string name="menu_search">Suchen</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_print">Senden</string>
+    <string name="menu_about">Über mich</string>
+    <string name="menu_delete_all">Alles Löschen</string>
+
+    <!-- Fragments -->
+    <string name="wednesday">Mittwoch</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="monday">Montag</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="friday">Freitag</string>
+    <string name="saturday">Samstag</string>
+    <string name="sunday">Sonntag</string>
+    <string name="time7">07.00 Uhr</string>
+    <string name="time8">08.00 Uhr</string>
+    <string name="time9">09.00 Uhr</string>
+    <string name="time10">10.00 Uhr</string>
+    <string name="time11">11.00 Uhr</string>
+    <string name="time12">12.00 Uhr</string>
+    <string name="time13">13.00 Uhr</string>
+    <string name="time14">14.00 Uhr</string>
+    <string name="time15">15.00 Uhr</string>
+    <string name="time16">16.00 Uhr</string>
+    <string name="time17">17.00 Uhr</string>
+    <string name="time18">18.00 Uhr</string>
+    <string name="time19">19.00 Uhr</string>
+    <string name="time20">20.00 Uhr</string>
+
+    <!-- Widget -->
+    <string name="widget_tvTitle">Nächste Veranstaltung:</string>
+    <string name="widget_tvEmpty">Keine Veranstaltungen</string>
+
+    <!-- Dialog -->
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="change">Bearbeiten</string>
+    <string name="send">Senden</string>
+    <string name="btText">Kein Eintrag</string>
+    <string name="eventname">Name der Veranstaltung</string>
+    <string name="description">Beschreibung</string>
+    <string name="new_event">Neue Veranstaltung</string>
+    <string name="event">Veranstaltung</string>
+    <string name="dialog_erase">Alle Veranstaltungen löschen?</string>
+    <string name="dialog_about_tv">Blablabla das bin ich\nich bin toll\n und das ist eine emailadresse:\njonas.menken@gmail.com</string>
+    <string name="dialog_print_newadress">E-Mail Adresse</string>
+    <string name="dialog_print_message">Ihr Stundenplan wird in Textform an die angegebe Mailadresse versendet.</string>
+    <string name="dialog_print_subject">Ihr Stundenplan</string>
+    
+    <!-- Preferences -->
+    <string name="pref_mail_title">E-Mail Adresse</string>
+    <string name="pref_mail_summary">Wird für den Versand des Plans verwendet</string>
+    <string name="pref_cat_main">Allgemein</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvPrintMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/dialog_print_message"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="@string/dialog_print_newadress"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout style="@style/ll_default" >
+
+        <Button
+            android:id="@+id/btCancel"
+            style="@style/bt_dialog"
+            android:text="@android:string/cancel" />
+
+        <Button
+            android:id="@+id/btOk"
+            style="@style/bt_dialog"
+            android:text="@string/send" />
+    </LinearLayout>
+
+</LinearLayout>

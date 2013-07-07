@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ll_default"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/ll_default"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text=""
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvDescribtion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ll_default" >
+
+        <Button
+            android:id="@+id/btChange"
+            style="@style/bt_dialog"
+            android:text="@string/change" />
+
+        <Button
+            android:id="@+id/btOk"
+            style="@style/bt_dialog"
+            android:text="@android:string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

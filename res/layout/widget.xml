@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F111"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:ignore="Overdraw" >
+
+    <TextView
+        android:id="@+id/widget_tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:text="@string/widget_tvTitle"
+        android:textSize="18sp" />
+
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="ContentDivider"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/divider_horizontal_dark" />
+
+    <TextView
+        android:id="@+id/widget_tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:text="@string/widget_tvEmpty"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/widget_tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text=""
+        android:textSize="16sp" />
+
+</LinearLayout>
